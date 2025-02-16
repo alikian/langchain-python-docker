@@ -15,4 +15,5 @@ RUN echo "📂 Project files copied to /app"
 # Upgrade pip and install dependencies
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 
+# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
