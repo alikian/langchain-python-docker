@@ -10,8 +10,6 @@ RUN echo "📂 Working directory set to /app"
 
 # Copy project files
 COPY requirements.txt /app
-COPY main.py /app
-COPY layer /app/layer
 RUN echo "📂 Project files copied to /app"
 
 # Upgrade pip and install dependencies
