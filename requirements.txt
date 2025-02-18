@@ -1,9 +1,13 @@
 boto3
 fastapi
+pyjwt
+cryptography
+requests 
+cachetools
 uvicorn
 pydantic
 pinecone[grpc]
-langchain-openai==0.3.4
+langchain-openai==0.3.6
 langchain-text-splitters==0.3.6
 langchain_community==0.3.17
 langchain==0.3.18

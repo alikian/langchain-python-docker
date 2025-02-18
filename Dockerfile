@@ -12,6 +12,10 @@ RUN echo "📂 Working directory set to /app"
 COPY requirements.txt /app
 RUN echo "📂 Project files copied to /app"
 
+# Create and activate virtual environment
+RUN python -m venv venv
+RUN . venv/bin/activate
+
 # Upgrade pip and install dependencies
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 
