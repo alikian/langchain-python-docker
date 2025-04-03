@@ -17,3 +17,5 @@ twilio
 python-multipart
 python-dotenv 
 websockets
+PyMuPDF
+beautifulsoup4
