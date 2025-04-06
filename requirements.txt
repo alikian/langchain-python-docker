@@ -7,11 +7,11 @@ cachetools
 uvicorn
 pydantic
 pinecone[grpc]
-langchain-openai==0.3.6
+langchain-openai==0.3.12
 langchain-text-splitters==0.3.6
 langchain_community==0.3.17
 langchain==0.3.18
-langchain_core==0.3.35
+langchain_core==0.3.51
 langchain-pinecone==0.2.3
 twilio
 python-multipart
@@ -19,3 +19,4 @@ python-dotenv
 websockets
 PyMuPDF
 beautifulsoup4
+langchain-anthropic==0.3.1
